@@ -16,31 +16,39 @@ ul {
 .navbar {
   background: #2CC5E1;
   overflow: auto;
-  padding
 }
 
 .navbar-left {
  float: left;
+ display: inline-block;
+ padding: 0.5rem;
+ color: white;
+
 }
 
 .navbar-right {
  float: right;
+ display: inline-block;
+ padding: 0.5rem;
+ text-decoration: none;
+ color: white;
 }
 
-.profile {
- border: black 0.1rem solid;
-}
 
 .container {
-
+  background: blue;
 }
 
 .grid {
-
+  background: red;
+  border: black 0.5rem solid;
+  float: left;
+  margin: 1rem;
+  width: calc(100% / 3 - 1rem - 1rem);
 }
 
 .wrapper {
-
+background: green;
 }
 
 .img {
@@ -49,15 +57,20 @@ ul {
 }
 
 .name {
-
+ background: orange;
+ display: inline-block;;
+ padding: -0.5rem;
 }
 
 .username {
-
+background: purple;
+display: block;
+font-size: 0.75rem;
 }
 
 .repo {
-
+ background: gray;
+ display: inline;
 }
 
 .html-dot {
@@ -78,18 +91,16 @@ ul {
 
 .bootstrap-dot {
   display: inline-block;
-  background: green;
+  background: orange;
   border-radius: 50%;
   height: 0.5rem;
   width: 0.5rem;
 }
 
-.repo-dot {
-
-}
 
 .repo-language {
-
+background: pink;
+display: inline-block;
 }
 
 .footer {
