@@ -28,7 +28,7 @@ ul {
 }
 
 .profile {
-
+ border: black 0.1rem solid;
 }
 
 .container {
@@ -44,7 +44,8 @@ ul {
 }
 
 .img {
-
+ max-width: 4rem;
+ max-height: 4rem;
 }
 
 .name {
@@ -59,10 +60,28 @@ ul {
 
 }
 
-.html {
+.html-dot {
+  display: inline-block;
   background: blue;
   border-radius: 50%;
-  height: 20rem;
+  height: 0.5rem;
+  width: 0.5rem;
+}
+
+.react-dot {
+  display: inline-block;
+  background: purple;
+  border-radius: 50%;
+  height: 0.5rem;
+  width: 0.5rem;
+}
+
+.bootstrap-dot {
+  display: inline-block;
+  background: green;
+  border-radius: 50%;
+  height: 0.5rem;
+  width: 0.5rem;
 }
 
 .repo-dot {
