@@ -24,25 +24,44 @@ ul {
  padding: 0.5rem;
  color: white;
  background: blue;
-
 }
 
 .navbar-right {
- float: right;
+float: right;
  display: inline-block;
  padding: 0.5rem;
  text-decoration: none;
  color: white;
- background: blue;
+ background: purple;
 }
 
+.navbar-right__item {
+  /*float: right;
+  display: inline-block;
+  padding: 0.5rem;
+  text-decoration: none;
+  color: white;
+  background: purple;*/
+}
+
+.outside {
+  overflow: auto;
+  padding: 2rem;
+}
+
+.next {
+  max-width: 65rem;
+  margin: 0 auto;
+}
+
+
 .container {
-  background: blue;
+
 }
 
 .grid {
   background: red;
-  border: black 0.25rem solid;
+  border: gray 0.025rem solid;
   float: left;
   margin: 1rem;
   width: calc(100% / 3 - 1rem - 1rem);
@@ -66,23 +85,23 @@ overflow: auto;
 }
 
 .name {
- background: orange;
+ background: ;
 margin: 0;
 }
 
 .username {
-background: purple;
+background: ;
 margin: 0;
 }
 
 .repo-list {
- border-top: .025rem black solid;
+ border-top: .025rem gray solid;
  overflow: auto;
  padding: 0.25rem;
 }
 
 .repo {
-  float: left;
+ float: left;
  background: gray;
  display: inline;
 
@@ -90,7 +109,7 @@ margin: 0;
 
 li {
  /*border-top: black 0.5rem solid;*/
-padding: 0.5rem;
+ /*adding: 0.5rem;*/
 }
 
 .html-dot {
@@ -119,7 +138,6 @@ padding: 0.5rem;
 
 .repo-language {
 background: pink;
-
 float: right;
 }
 
