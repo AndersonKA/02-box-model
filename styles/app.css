@@ -21,56 +21,55 @@ ul {
 .navbar-left {
  float: left;
  display: inline-block;
- padding: 0.5rem;
+ padding:
  color: white;
  background: blue;
 }
 
 .navbar-right {
-float: right;
+ float: right;
  display: inline-block;
  padding: 0.5rem;
- text-decoration: none;
- color: white;
- background: purple;
 }
 
 .navbar-right__item {
-  /*float: right;
+  float: right;
   display: inline-block;
-  padding: 0.5rem;
+  padding: 1rem;
   text-decoration: none;
   color: white;
-  background: purple;*/
+  background: purple;
 }
 
-.outside {
-  overflow: auto;
+.section {
   padding: 2rem;
 }
 
-.next {
-  max-width: 65rem;
-  margin: 0 auto;
+outside {
+ margin: auto;
 }
 
-
 .container {
+  max-width: 65rem;
+  margin: 0 auto;
 
 }
 
 .grid {
-  background: red;
-  border: gray 0.025rem solid;
-  float: left;
-  margin: 1rem;
-  width: calc(100% / 3 - 1rem - 1rem);
+  margin: -1rem;
   overflow: auto;
 }
 
-.wrapper {
-background: green;
-overflow: auto;
+.one-third {
+
+  float: left;
+  margin: 1rem;
+  width: calc(100% / 3 - 1rem - 1rem);
+}
+
+.profile-box {
+  border: gray 0.025rem solid;
+
 }
 
 .profile-icon-name {
@@ -102,7 +101,7 @@ margin: 0;
 
 .repo {
  float: left;
- background: gray;
+
  display: inline;
 
 }
@@ -137,7 +136,7 @@ li {
 }
 
 .repo-language {
-background: pink;
+
 float: right;
 }
 
