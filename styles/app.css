@@ -1,11 +1,78 @@
-.header {
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.navbar {
+  background: #2CC5E1;
+  overflow: auto;
+  padding
+}
+
+.navbar-left {
+ float: left;
+}
+
+.navbar-right {
+ float: right;
+}
+
+.profile {
 
 }
 
-.header-left {
+.container {
 
 }
 
-.header-right {
+.grid {
+
+}
+
+.wrapper {
+
+}
+
+.img {
+
+}
+
+.name {
+
+}
+
+.username {
+
+}
+
+.repo {
+
+}
+
+.html {
+  background: blue;
+  border-radius: 50%;
+  height: 20rem;
+}
+
+.repo-dot {
+
+}
+
+.repo-language {
+
+}
+
+.footer {
 
 }
