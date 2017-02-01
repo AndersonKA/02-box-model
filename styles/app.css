@@ -12,7 +12,6 @@ ul {
   box-sizing: border-box;
 }
 
-
 .navbar {
   background: #2CC5E1;
   overflow: auto;
@@ -23,7 +22,6 @@ ul {
  display: inline-block;
  padding: 0.5rem;
  color: white;
-
 }
 
 .navbar-right {
@@ -33,7 +31,6 @@ ul {
  text-decoration: none;
  color: white;
 }
-
 
 .container {
   background: blue;
@@ -54,18 +51,21 @@ background: green;
 .img {
  max-width: 4rem;
  max-height: 4rem;
+padding: 0.5rem;
 }
 
 .name {
  background: orange;
- display: inline-block;;
- padding: -0.5rem;
+ display: inline-block;
+ margin: 0;
 }
 
 .username {
 background: purple;
 display: block;
 font-size: 0.75rem;
+border-bottom: black 0.5rem solid;
+margin: 0;
 }
 
 .repo {
@@ -79,6 +79,7 @@ font-size: 0.75rem;
   border-radius: 50%;
   height: 0.5rem;
   width: 0.5rem;
+
 }
 
 .react-dot {
@@ -96,7 +97,6 @@ font-size: 0.75rem;
   height: 0.5rem;
   width: 0.5rem;
 }
-
 
 .repo-language {
 background: pink;
