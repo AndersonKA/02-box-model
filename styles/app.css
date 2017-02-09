@@ -21,23 +21,24 @@ ul {
 
 .navbar-left {
  float: left;
- display: inline-block;
  color: white;
-padding-bottom: 1rem;
+ background: blue;
+ line-height: 2rem;
+ padding: 1rem;
 }
 
 .navbar-right {
  float: right;
- display: inline-block;
+ background: purple;
+ line-height: 2rem;
 }
 
 .navbar-right__item {
   float: right;
-  display: inline-block;
-  padding-top: 2rem;
-  padding-left: 2rem;
   text-decoration: none;
   color: white;
+  background: blue;
+  padding: 1rem;
 }
 
 .section {
@@ -130,10 +131,5 @@ color: #a6b2b4
 }
 
 .repo-language {
-
 float: right;
-}
-
-.footer {
-
 }
