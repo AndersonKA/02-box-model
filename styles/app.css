@@ -22,14 +22,12 @@ ul {
 .navbar-left {
  float: left;
  color: white;
- background: blue;
  line-height: 2rem;
  padding: 1rem;
 }
 
 .navbar-right {
  float: right;
- background: purple;
  line-height: 2rem;
 }
 
@@ -37,7 +35,6 @@ ul {
   float: right;
   text-decoration: none;
   color: white;
-  background: blue;
   padding: 1rem;
 }
 
