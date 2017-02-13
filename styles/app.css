@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+ul {
+  padding-left: 0;
+  list-style: none;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.navbar {
+  background: #2CC5E1;
+  overflow: auto;
+  margin: auto;
+}
+
+.navbar-left {
+ float: left;
+ color: white;
+ line-height: 2rem;
+ padding: 1rem 0;
+}
+
+.navbar-right {
+ float: right;
+ line-height: 2rem;
+}
+
+.navbar-right__item {
+  float: right;
+  text-decoration: none;
+  color: white;
+  padding: 1rem;
+}
+
+.section {
+  padding: 2rem;
+}
+
+.outside {
+ margin: 2rem;
+}
+
+.container {
+  max-width: 65rem;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.grid {
+  margin: -1rem;
+  overflow: auto;
+}
+
+.one-third {
+  border: #d7dadb 0.025rem solid;
+  float: left;
+  margin: 1rem;
+  width: calc(100% / 3 - 1rem - 1rem);
+}
+
+.profile-box {
+ margin: 0.25rem;
+ overflow: auto;
+}
+
+.profile-icon-name {
+  overflow: auto;
+}
+
+.img {
+ float: left;
+ height: 4rem;
+ padding: 0.5rem;
+ border-radius: 0.8rem;
+}
+
+.name {
+ background: ;
+margin: 0;
+}
+
+.username {
+margin: 0;
+font-weight: lighter;
+color: #a6b2b4
+
+}
+
+.repo-list {
+ border-top: .025rem #d7dadb solid;
+ overflow: auto;
+ padding: 0.25rem;
+}
+
+.repo {
+ float: left;
+ display: inline;
+}
+
+.html-dot {
+  display: inline-block;
+  background: blue;
+  border-radius: 50%;
+  height: 0.5rem;
+  width: 0.5rem;
+}
+
+.react-dot {
+  display: inline-block;
+  background: purple;
+  border-radius: 50%;
+  height: 0.5rem;
+  width: 0.5rem;
+}
+
+.bootstrap-dot {
+  display: inline-block;
+  background: orange;
+  border-radius: 50%;
+  height: 0.5rem;
+  width: 0.5rem;
+}
+
+.repo-language {
+float: right;
+}
