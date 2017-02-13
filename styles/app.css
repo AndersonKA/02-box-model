@@ -23,7 +23,7 @@ ul {
  float: left;
  color: white;
  line-height: 2rem;
- padding: 1rem;
+ padding: 1rem 0;
 }
 
 .navbar-right {
